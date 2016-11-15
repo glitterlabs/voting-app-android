@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Vote US</string>
+    <string name="about_info">       Vote app is an Android application in which user can vote for the politician whom they like. With the help of these app user can vote for Hillary and can vote for Donald. After the submission of their vote user can check how many users like Hillary and how many people like Donald.</string>
+    <string name="Hillary">hillary</string>
+    <string name="Donald">donald</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Hello Voter!</string>
+    <string name="slide_1_desc">The easiest way to vote for your favourite political party!</string>
+
+    <string name="slide_2_title">Voting Results</string>
+    <string name="slide_2_desc">After submiting the vote you can check the results here!</string>
+
+    <string name="slide_3_title">Public Opinion</string>
+    <string name="slide_3_desc">public can give their opinion about parties!</string>
+
+    <string name="slide_4_title">About</string>
+    <string name="slide_4_desc">Vote US is the best app that will help you to vote for your favorite political party !</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.glitterlabs.voteme">
+    <meta-data
+        android:name="io.fabric.ApiKey"
+        android:value="a0e33da298780cf4df563bb99bb95e3a5fa92aae" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        >
+        <activity android:name=".Activities.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER"
+                    />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.UserNumberActivity"
+            android:screenOrientation="portrait"
+            android:label="Enter your Number"></activity>
+        <activity android:name=".Activities.LoginActivity"
+            android:windowSoftInputMode="adjustResize"></activity>
+
+        <activity android:name=".Activities.MainActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".Activities.AboutActivity"
+            android:label="About"
+
+            ></activity>
+        <activity android:name=".Activities.WelcomeActivity"></activity>
+
+        <activity
+            android:name=".Activities.Profile_Activity"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".Activities.SignUpActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"></activity>
+        <activity android:name=".Activities.ActivityUserProfile"></activity>
+        <activity android:name=".Activities.FeedbackActivity"></activity>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="33c44ac6a37465e487a6bca187401f139dc794a6" />
+    </application>
+
+</manifest>
