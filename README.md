@@ -1,24 +1,22 @@
-# Appolos - Android #
+# VoteUs - Android #
 
 # Introduction #
 
-Millions of people travel the world each year. They discover new lands, new cultures and news things made locally. Those travelers usually come back home with souvenirs for themselves and their loved ones. On the other hand, there are dozens of millions of people who don't travel for some reason: job, sickness, lack of money etc... Those who don't travel would certainly love to have a souvenir from a distant land but can't get their hands on because of some obstacle. Appolos Inc. wants to help people who don't travel get a souvenir from the land of their dreams. This will be possible through the App Appolos. People who travel can register on this App and people who don't travel can ask them to bring them a souvenir from abroad. Appolos also allows Immigrants to send packages back home through regular travelers. To sum up, Appolos accomplishes two functions in one: 1- Allowing non-travelers to get particular items or souvenirs from anywhere in the world through regular travelers; 2- Allowing immigrants anywhere in the world to send packages to their home country through regular travelers.
+This application is basically used to vote to their favourite politician.this app will help user to give the vote to Hillary or Donald depends on their choice.
+In this application its special feature is their is no special requirements for the user to only american people can vote. Anyone in the world can vote to their favourite politician.
 
 
 ### Features ###
 
-* User are able to do registration in very simple way that have simple UI , after registration app navigates to fill profile screen where user can add minimum information.
-
+* Initially user can see the Intro slider in which user can see how to use the application.
+*In this application user can register by using their phone number so that fake user can not vote.
+* Also user have to sign up before login in that user have to specify their email and name .
 * If user is already registered then user can login direct and maintain session.
-* User can add gift or trip along picture easily.
-* App detects the current location and add gift according to current location
-* App can search nearest trips within 50 miles and lists them.
-* Ability to send request and reject trip gift requests 
-* If requested accepted then both users can do chatting
-* Traveler can send approval pics to gift user .
-* Add gift owner side user can see current location of trip user
-* App has payment gateway integration of STRIPE CONNECT api.
-* App has History module that can maintain all successful transactions.
+* After sign in user can vote to their favourite politician.
+* User can see their profile in the profile menu.
+* User can see the about menu in that user will get familiar with the app.
+* User can sign out by choosing sign out menu.
+* User can give the feedback about the app so that we can work on it.
 * App made in pure Material Design under proper guidelines
 
 
@@ -29,46 +27,33 @@ API Used :
 * *User Service* - For save profile data
 
 
-* *Avatar Service* - for save profile image of users
-- avatarService.createAvatar(avatarName,userName,filePath, description,new App42CallBack());
+* *FireBase* - for save profile image of user
 
-* *Storage Service* - for save gift and trip data
-
-* *Push notification Service* - for send realtime push notifcations on devices
 
 * *Buddy Service* - for send and accept request from gift user to trip user
 
-* *Upload Service* - for upload gift approval pictures
+* *Upload Service* - for upload profile pictures
 
 ### Version Code###
 
-* 33 - specifies that this is latest apk than older, it must be higher than older apk version code.
+* 2- specifies that this is latest apk than older, it must be higher than older apk version code.
 
 ### Version Name###
 
-* 1.20 - specifies the version name of android app, it will display on playstore
+* 1.1- specifies the version name of android app, it will display on play store
 
 
 
-### API Credientials ###
+### API Credentials ###
 
- APP42_API_KEY = "6edda500a16d4c2eec0bac73ec548e78d9734418edc10b60639fbccb72221a4d";
+ Twitter Key= "05jtUe1ela6L5rbvq6mk4calL";
  
- APP42_SECRET_KEY = "89e65ebac5f0ed41295a6ea60ffd7bb2683758c543f1e4aadc3fd966108b7b8c";
+ twitter secrete key= "qP0eM2tQ0a4l65Wf8WlaUF33nfAM3JTqBZoKPUTbFmNnNg9HI8";
  
- GOOGLE_PROJECT_NO="125533368013";
+ Firebase_database = "https://vote-me-663f4.firebaseio.com/";
+ Firebase_profile_image = "gs://vote-me-663f4.appspot.com chevron_right images"
  
- GCM_SERVER_KEY="AIzaSyA5G0_KEMRDu3-_oqqlkV7A-wPODa6Lwds";
- 
- STRIPE PUBLISHABLE_KEY = "pk_live_0Z7jzzDQKgxO8hzNnhHcQLJb";
 
- STRIPE SECRET_KEY = "sk_live_tRIuQgXbuxk0p85KpSdwatPu";
-
- STRIPE CLIENT_ID = "ca_8ovW2dyNYfVMiDZEaYSmpQqm7oUXtctL";
-
- STRIPE CALLBACK_URL = "https://appolos.co";
-
- STRIPE ACCOUNT_NAME = "ClientStripeAccount";
 
 
 ### System Requirement ###
@@ -82,9 +67,9 @@ API Used :
 * Java Development Kit (JDK) 8
 * Android Studio 2.0 stable version 
   - Download link : [Android studio with SDK](http://developer.android.com/intl/ja/sdk/index.html)
-* Android SDK Compiled version - 23
-* Minimum SDK version - 15
-* Gradle version - 2.0
+* Android SDK Compiled version - 24
+* Minimum SDK version - 16
+* Gradle version - 2.2
 * SourceTree - [LINK](https://www.sourcetreeapp.com/download)
 * If you are using the SSH protocol, ensure sure your public key is in Bitbucket and loaded on the local system to which you are cloning.
 * Git
@@ -98,7 +83,7 @@ Cloning a Git repository
 You can use Sourcetree, Git from the terminal, or any client you like to clone your Git repository. These instructions show you how to clone your repository using Git from the terminal.
 
 * Change to the local directory where you want to clone your repository.
-* git clone https://johnnegus@bitbucket.org/johnnegus/appolos-android.git
+* git clone https://bitbucket.org/glitterlab/android-voting-app
 
 ### Run the project in Android Studio ###
 
