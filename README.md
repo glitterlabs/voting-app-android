@@ -90,3 +90,5 @@ You can use Sourcetree, Git from the terminal, or any client you like to clone y
 
 
 ## Project GIF demo ##
+
+https://dl.dropboxusercontent.com/content_link/n7XWPuTNvkliKSlSBtZHIdsJLQ6ezVpejYxKko3ro15Zh2Bm0zdrPOAm1HYCpkhr/file
