@@ -25,13 +25,7 @@ In this application its special feature is their is no special requirements for 
 API Used : 
 
 * *User Service* - For save profile data
-
-
 * *FireBase* - for save profile image of user
-
-
-* *Buddy Service* - for send and accept request from gift user to trip user
-
 * *Upload Service* - for upload profile pictures
 
 ### Version Code###
